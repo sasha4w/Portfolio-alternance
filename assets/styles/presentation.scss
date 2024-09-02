@@ -163,6 +163,10 @@
   gap: 1rem;
 }
 
+.explaination p {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   .explaination-card {
     flex-direction: column-reverse;

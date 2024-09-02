@@ -31,7 +31,7 @@ const translations = {
         kr: "",
     },
     galleryExplication: {
-        en: "These illustrations are made with Photoshop and Illustrator. There's a compilation of photoshopped images, a silkscreen, a logo made for a fictitious company in my studies, and different ways of expressing my feelings.",
+        en: "These illustrations are made with Photoshop and Illustrator. There's a compilation of photoshopped images, a silkscreen, a logo made for a fictious company in my studies, and different ways of expressing my feelings.",
         fr: "Voici différentes illustrations que j'ai réalisées avec Photoshop et Illustrator. Il y a une compilation d'images modifiées, une sérigraphie, un logo pour une entreprise fictive réalisé pour mes études. Certains de ces projets sont pour moi une façon d'exprimer mes émotions.",
         kr: "",
     },
@@ -58,6 +58,11 @@ const translations = {
     mvc:{
         en:"Experimental MVC model order site during my 3rd Semester",
         fr:"MVC modèle expérimental pour un site de commande durant mon 3e Semestre",
+        kr:"",
+    },
+    simonSays:{
+        en:"Student project of webapp called simon says concept games exploiting many phone's API javascript function",
+        fr:"Projet étudiant d'une webapp appelé Simon says mini jeux exploitant de nombreuses fonction API javascript",
         kr:"",
     },
     showCode:{
