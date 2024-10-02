@@ -65,6 +65,21 @@ const translations = {
         fr:"Projet étudiant d'une webapp appelé Simon says mini jeux exploitant de nombreuses fonction API javascript",
         kr:"",
     },
+    internshipExplaination:{
+        en:"",
+        fr:"",
+        kr:"",
+    },
+    yogaClub:{
+        en:"",
+        fr:"",
+        kr:"",
+    },
+    fermeReine:{
+        en:"",
+        fr:"",
+        kr:"",
+    },
     showCode:{
         en:"Show code",
         fr:"Voir le code",
