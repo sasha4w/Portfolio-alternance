@@ -56,7 +56,39 @@ const thumbnails = document.querySelectorAll('.thumbnail');
         skillSides[index].classList.add("active");
       });
     });
-    
+    // EmailJs
+  emailjs.init("1Av85qSubE8y8cWra");  
+  
+  // Formulaire EmailJs
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    const formStatus = document.getElementById('formStatus');
+
+    // Paramètres de l'email
+    const templateParams = {
+      email: email,
+      message: message
+    };
+
+    emailjs.send('service_sasha4w', 'template_sasha4w', templateParams)
+      .then(function(response) {
+         formStatus.innerText = 'Message envoyé avec succès!';
+         formStatus.style.color = '#20fc8f';
+
+         // Optionnel: délai avant de réinitialiser le formulaire pour que l'utilisateur voit le message
+         setTimeout(() => {
+           document.getElementById('contactForm').reset();
+           formStatus.innerText = '';
+         }, 3000); // Réinitialiser après 3 secondes
+      }, function(error) {
+         formStatus.innerText = "Échec de l'envoi. Veuillez réessayer.";
+         formStatus.style.color = 'red';
+      });
+  });
+
 
     
   });

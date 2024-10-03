@@ -49,12 +49,13 @@ footer{
     font-size: 2em;
     font-weight: 700;
     align-self: flex-start;
+    color: var(--white);
   }
   
   .email-input {
     border: none;
     outline: none;
-    background: #eee;
+    background: var(--white);
     padding: 20px;
     border-radius: 6px;
     width: 100%;
@@ -85,10 +86,23 @@ footer{
     transition: transform 300ms 0s cubic-bezier(0, 0.23, 0.29, 2.45);
   }
   
-  .submit:hover {
+  .submit {
     cursor: pointer;
     background: var(--action-color);
-    transform: translateY(-2px);
+    transition: background 0.3s ease 0s, transform 0.3s ease 0s;
+  
+    &:hover {
+      background: var(--action-color);
+      transform: translateY(-2px);
+    }
+  
+    &:active {
+      background: var(--white);
+    }
+  }
+  #formStatus{
+    font-family: 'PilcrowRounded-Regular';
+    font-size: 0.8rem;
   }
   @media screen and (max-width: 768px) {
     .container{
