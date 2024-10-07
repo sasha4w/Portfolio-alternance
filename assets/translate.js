@@ -61,23 +61,23 @@ const translations = {
         kr:"",
     },
     simonSays:{
-        en:"Student project of webapp called simon says concept games exploiting many phone's API javascript function",
-        fr:"Projet étudiant d'une webapp appelé Simon says mini jeux exploitant de nombreuses fonction API javascript",
+        en:"Student project of webapp concept games exploiting many phone's API javascript function",
+        fr:"Projet étudiant d'une webapp appelé de mini jeux exploitant des fonctions API javascript",
         kr:"",
     },
     internshipExplaination:{
-        en:"",
-        fr:"",
+        en:"I worked 2 months in web agency in Retournac in France named Quarante3 with Simon Ducloux. I almost work on csm project with Wordpress",
+        fr:"J'ai travaillé 2 mois dans une agence basé à Retournac nommé Quarante3 avec Simon Ducloux. La majeure partie de mon trrvail dans l'agance a été des projets csm avec Wordpress",
         kr:"",
     },
     yogaClub:{
-        en:"",
-        fr:"",
+        en:"Wordpress website of yoga club lucéen",
+        fr:"Site wordpress du yoha club lucéen",
         kr:"",
     },
     fermeReine:{
-        en:"",
-        fr:"",
+        en:"Wordpress website with Ecommerce",
+        fr:"Site wordpress avec fonction ecommerce",
         kr:"",
     },
     showCode:{
