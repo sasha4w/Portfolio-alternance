@@ -130,7 +130,7 @@ const translations = {
         fr:"Communication",
         kr:"의사소통",
     },
-    // Add other translations as needed
+    
 };
 
 function translatePage() {
