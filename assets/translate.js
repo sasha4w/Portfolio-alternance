@@ -28,12 +28,12 @@ const translations = {
     projetExplication: {
         en: "These are my student projects which I made in groups. During my studies, they allowed me to explore all the knowledge that I learned.",
         fr: "Voici mes projets d'études réalisés en groupe pour certains. Ceux-ci m'ont permis d'explorer l'ensemble des compétences que j'ai acquises.",
-        kr: "",
+        kr: "이것들은 제가 그룹으로 진행한 연구 프로젝트들입니다.",
     },
     galleryExplication: {
         en: "These illustrations are made with Photoshop and Illustrator. There's a compilation of photoshopped images, a silkscreen, a logo made for a fictious company in my studies, and different ways of expressing my feelings.",
         fr: "Voici différentes illustrations que j'ai réalisées avec Photoshop et Illustrator. Il y a une compilation d'images modifiées, une sérigraphie, un logo pour une entreprise fictive réalisé pour mes études. Certains de ces projets sont pour moi une façon d'exprimer mes émotions.",
-        kr: "",
+        kr: "이것들은 제가 포토샵과 일러스트레이터와 함께 만든 다른 그림들입니다.",
     },
     skillTools:{
         en:"My skills & tools",
@@ -53,32 +53,32 @@ const translations = {
     beetrav:{
         en:"Hive fictional management site at the end of 2nd semester",
         fr:"Site de gestion de ruche fictif réalisé pour la fin de mon second semestre",
-        kr:"",
+        kr:"하반기 말에 만들어진 가상의 벌집 관리 사이트",
     },
     mvc:{
-        en:"Experimental MVC model order site during my 3rd Semester",
-        fr:"MVC modèle expérimental pour un site de commande durant mon 3e Semestre",
-        kr:"",
+        en:"Experimental MVC model fictional order site during my 3rd Semester",
+        fr:"modèle MVC expérimental pour un site de commande fictif durant mon 3e Semestre",
+        kr:"하반기 말에 만들어진 가상의 벌집 관리 사이트",
     },
     simonSays:{
         en:"Student project of webapp concept games exploiting many phone's API javascript function",
-        fr:"Projet étudiant d'une webapp appelé de mini jeux exploitant des fonctions API javascript",
-        kr:"",
+        fr:"Projet étudiant d'une webapp de mini jeux exploitant des fonctions API javascript",
+        kr:"자바스크립트 API 기능을 이용한 미니 게임 웹앱 연구 프로젝트",
     },
     internshipExplaination:{
         en:"I worked 2 months in web agency in Retournac in France named Quarante3 with Simon Ducloux. I almost work on csm project with Wordpress",
-        fr:"J'ai travaillé 2 mois dans une agence basé à Retournac nommé Quarante3 avec Simon Ducloux. La majeure partie de mon trrvail dans l'agance a été des projets csm avec Wordpress",
-        kr:"",
+        fr:"J'ai travaillé 2 mois dans une agence web basé à Retournac nommé Quarante3 avec Simon Ducloux. La majeure partie de mon trrvail dans l'agance a été des projets csm avec Wordpress",
+        kr:"저는 웹 에이전시에서 두 달 동안 일했습니다 (Quarante3라는 이름). 제 작업의 대부분은 Wordpress와 함께한 CMS 프로젝트였습니다.",
     },
     yogaClub:{
         en:"Wordpress website of yoga club lucéen",
         fr:"Site wordpress du yoha club lucéen",
-        kr:"",
+        kr:"Wordpress 전시용 웹사이트웹사이트",
     },
     fermeReine:{
         en:"Wordpress website with Ecommerce",
         fr:"Site wordpress avec fonction ecommerce",
-        kr:"",
+        kr:"Wordpress 전자상거래 기능이 있는 웹사이트 ",
     },
     showCode:{
         en:"Show code",
