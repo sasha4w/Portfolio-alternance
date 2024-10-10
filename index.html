@@ -47,9 +47,9 @@
         </a>
         <div class="Language" tabindex="0">
           <select  id="language-select" onchange="translatePage()">
-              <option value="en">English</option>
-              <option value="fr">Français</option>
-              <option value="kr">한국어</option>
+              <option class="en" value="en">english</option>
+              <option class="fr" value="fr">french</option>
+              <option class="kr" value="kr">korean</option>
           </select>
         </div>
     </header>    
@@ -216,6 +216,7 @@
         </div>
       </section>
       <section class="project">
+        <audio id="paperSound" src="./assets/sound/paper.mp3"></audio>
         <h2 id="project" data-translate="works">My works</h2>
         <div class="project-explaination-container">
           <p data-translate="projetExplication">These are my student projects which I made in groups. During my studies, they allowed me to explore all the knowledge that I learned.</p>
@@ -468,6 +469,8 @@
               <button class="submit" type="submit" data-translate="submitbtn">Submit</button>
             </form>
             <p id="formStatus"></p>
+            <audio id="successSound" src="./assets/sound/success.mp3"></audio>
+            <audio id="errorSound" src="./assets/sound/error.mp3"></audio>
             </div>
         </div>
       </footer>

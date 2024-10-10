@@ -104,6 +104,7 @@ h1{
   font-size: 2rem;
   text-transform: uppercase;
 } 
+
 @media (max-width: 768px) {
 .spacer {
   display: none;
@@ -111,6 +112,7 @@ h1{
 .iconSVG{
   height: 26px;
 }
+
 }
 @media (max-width: 425px) {
   .iconDiv[tooltip]::after {

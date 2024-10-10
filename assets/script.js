@@ -1,5 +1,14 @@
-// BOUTON CV
+// Gestion son hover projet
+// Sélection de tous les éléments avec la classe 'project-card-content'
+const skillCardElements = document.querySelectorAll('.project-card');
+const paperSound = document.getElementById('paperSound');
 
+// Parcourir chaque élément et ajouter un événement 'mouseover' pour jouer le son
+skillCardElements.forEach(function(skillCardElement) {
+    skillCardElement.addEventListener('mouseover', function() {
+        paperSound.play();
+    });
+});
 
 
 // AGGRANDISSEMENT Image
@@ -75,8 +84,9 @@ const thumbnails = document.querySelectorAll('.thumbnail');
 
     emailjs.send('service_sasha4w', 'template_sasha4w', templateParams)
       .then(function(response) {
-         formStatus.innerText = 'Message envoyé avec succès!';
-         formStatus.style.color = '#20fc8f';
+        formStatus.innerText = 'Message envoyé avec succès!';
+        formStatus.style.color = '#20fc8f';
+        successSound.play();
 
          // Optionnel: délai avant de réinitialiser le formulaire pour que l'utilisateur voit le message
          setTimeout(() => {
@@ -86,6 +96,7 @@ const thumbnails = document.querySelectorAll('.thumbnail');
       }, function(error) {
          formStatus.innerText = "Échec de l'envoi. Veuillez réessayer.";
          formStatus.style.color = 'red';
+         errorSound.play();
       });
   });
 

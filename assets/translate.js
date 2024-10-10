@@ -23,7 +23,7 @@ const translations = {
     hello: {
         en: "Hello, my name is Rochedix Sasha and this my portfolio. I'm backend developer looking for a internship. Check my works, my skills and if you are interested. Let's collaborate and build something incredible together !",
         fr: "Bonjour, je m'appelle Rochedix Sasha et voici mon portfolio. Je suis backend developer je suis à la recherche d'une alternance ou d'un stage. Regarder mes travaux, mes compétences et si vous êtes intéressé par mon profil contacter ",
-        kr: "안녕하세요, 제 이름은 Rochedix Sasha입니다. 이것은 제 포트폴리오입니다.",
+        kr: "안녕하세요, 제 이름은 Rochedix Sasha입니다. 이것은 제 포트폴리오입니다.저는 백엔드 개발자이고 이 분야에서 인턴십을 찾고 있습니다. 제가 개발한 프로그램이 마음에 드셨으면 좋겠습니다. 이 분야에서 일하고 싶습니다.",
     },
     projetExplication: {
         en: "These are my student projects which I made in groups. During my studies, they allowed me to explore all the knowledge that I learned.",
@@ -38,7 +38,7 @@ const translations = {
     skillTools:{
         en:"My skills & tools",
         fr:"Mes compétences & outils",
-        kr:"내 기술과 도구",
+        kr:"기술 및도구",
     },
     works:{
         en:"My works",
@@ -68,7 +68,7 @@ const translations = {
     internshipExplaination:{
         en:"I worked 2 months in web agency in Retournac in France named Quarante3 with Simon Ducloux. I almost work on csm project with Wordpress",
         fr:"J'ai travaillé 2 mois dans une agence web basé à Retournac nommé Quarante3 avec Simon Ducloux. La majeure partie de mon trrvail dans l'agance a été des projets csm avec Wordpress",
-        kr:"저는 웹 에이전시에서 두 달 동안 일했습니다 (Quarante3라는 이름). 제 작업의 대부분은 Wordpress와 함께한 CMS 프로젝트였습니다.",
+        kr:"저는 프랑스의 웹 관련 회사인 Retournac에서 두 달간 일한 경력이 있습니다. 저는 Wordpress와 csm 프로젝트를 수행 했었습니다.",
     },
     yogaClub:{
         en:"Wordpress website of yoga club lucéen",
@@ -88,12 +88,12 @@ const translations = {
     artworks:{
         en:"Artworks",
         fr:"Réalisations graphiques",
-        kr:"삽화",
+        kr:"작품",
     },
     contactme:{
         en:"Get in touch ?",
         fr:"Me contacter",
-        kr:"연락이 닿다",
+        kr:"여기로 연락주시면 감사하겠습니다",
     },
     contactForm:{
         en:"Contact me",
@@ -103,7 +103,7 @@ const translations = {
     submitbtn:{
         en:"submit",
         fr:"soumettre",
-        kr:"제출해요",
+        kr:"제출해주세요",
     },
     btnCV:{
         en:"my resume",
@@ -113,7 +113,7 @@ const translations = {
     aboutme:{
         en:"About me",
         fr:"Qui suis je ?",
-        kr:"내가 뭔데요?",
+        kr:"나에 대해서",
     },
     webdev:{
         en:"Web Development",
