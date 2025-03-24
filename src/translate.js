@@ -67,12 +67,12 @@ const translations = {
   },
   internshipExplaination: {
     en: "I worked 2 months in web agency in Retournac in France named Quarante3 with Simon Ducloux. I almost work on csm project with Wordpress",
-    fr: "J'ai travaillé 2 mois dans une agence web basé à Retournac nommé Quarante3 avec Simon Ducloux. La majeure partie de mon trrvail dans l'agance a été des projets csm avec Wordpress",
+    fr: "J'ai travaillé pendant deux mois au sein de l'agence web Quarante3, basée à Retournac et dirigée par Simon Ducloux. Mon rôle principal consistait à réaliser des projets de gestion de contenu (CMS) en utilisant WordPress.",
     kr: "저는 프랑스의 웹 관련 회사인 Retournac에서 두 달간 일한 경력이 있습니다. 저는 Wordpress와 csm 프로젝트를 수행 했었습니다.",
   },
   yogaClub: {
     en: "Wordpress website of yoga club lucéen",
-    fr: "Site wordpress du yoha club lucéen",
+    fr: "Site wordpress du yoga club lucéen",
     kr: "Wordpress 전시용 웹사이트웹사이트",
   },
   fermeReine: {
