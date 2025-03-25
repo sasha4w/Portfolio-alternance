@@ -6,9 +6,9 @@ const translations = {
     kr: "제가 누구게?",
   },
   tooltipCV: {
-    en: "Resume",
-    fr: "CV",
-    kr: "이력서",
+    en: "Download",
+    fr: "Télécharger",
+    kr: "다운로드",
   },
   tooltipProjects: {
     en: "Projects",

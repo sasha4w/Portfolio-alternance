@@ -1,0 +1,269 @@
+.latest-project {
+  width: 100%;
+}
+.project-big {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: var(--bg-2nd-color);
+
+  width: 90dvw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Side Cards */
+.left-side,
+.right-side {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* List of Options */
+.options-list {
+  list-style-type: none;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c29993;
+  color: #e4e4e4;
+  border-radius: 50px;
+  margin: 0 0 10px 0;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 73%);
+}
+
+.options-list li {
+  padding: 9px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Card Styles */
+.first-card {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-around;
+}
+.card-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 25px 15px;
+  height: 185px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 73%);
+}
+.easycrea {
+  background: url(../../public/assets/img/projet-dev/easycrea.png);
+  background-size: cover;
+  background-position: center;
+}
+.nasdace {
+  background: url(../../public/assets/img/projet-dev/nasdace2.png);
+  background-size: cover;
+  background-position: center;
+}
+.card-content {
+  flex: 1; /* Takes remaining space */
+  position: relative;
+  bottom: 0;
+  width: 25dvw;
+}
+
+/* Small Square Cards */
+.square-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.square-card {
+  width: 90px;
+  height: 90px;
+  background-color: #e0e0e0;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 73%);
+}
+
+.square-card.top {
+  background-color: #ffc6cc;
+  color: #b5505a;
+}
+
+.square-card.bottom {
+  background-color: #616161;
+}
+.square-card.bottom i {
+  font-size: 43px;
+}
+
+/* Circle Button */
+.circle-button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  bottom: -71px;
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
+  background-color: transparent;
+  color: var(--black);
+  cursor: pointer;
+  border: none;
+}
+
+/* Bigger Card Styles */
+/* Bigger Card Styles */
+.big-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 73%);
+  height: 200px; /* Fixed height */
+  position: relative;
+  overflow: hidden; /* Hide overflow for sliding effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Page Content Styles */
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: var(--action-color);
+  left: 100%; /* Start offscreen to the right */
+  transition: all 0.5s ease-in-out; /* Smooth transition */
+  opacity: 0; /* Start invisible */
+  border-radius: 8px;
+  padding: 15px;
+  display: block;
+}
+
+.page.active {
+  left: 0; /* Slide into view */
+  opacity: 1; /* Fade in */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.page.previous {
+  left: -100%; /* Slide out to the left */
+  opacity: 0; /* Fade out */
+}
+
+.big-card .bold-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--black);
+  margin: 10px 0;
+  line-height: 1.3;
+  text-align: center;
+}
+.top-text {
+  color: var(--black);
+}
+.big-card .description {
+  font-size: 14px;
+  color: var(--black);
+  margin: 0;
+  width: 80%;
+}
+
+.big-card .line {
+  display: block;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+  position: relative;
+  bottom: -5px;
+  z-index: 999;
+  width: 95%;
+}
+
+.big-card .bottom-text {
+  position: absolute;
+  bottom: 54px;
+  font-size: 12px;
+  color: var(--black);
+  margin: 0;
+}
+
+/* Right Side Card with Image Background */
+.right-card {
+  flex: 1; /* Take remaining space */
+
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 73%);
+  display: flex;
+  height: 427px;
+  flex-direction: column;
+  position: relative; /* For positioning menu options and small card */
+}
+.first-exemple-card {
+  background-image: url(../../public/assets/img/projet-dev/deckouverte1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.second-exemple-card {
+  background-image: url(../../public/assets/img/projet-dev/deckouverte2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.third-exemple-card {
+  background-image: url(../../public/assets/img/projet-dev/nasdace.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Create Button */
+.create-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 5px 15px 5px 5px;
+  border-radius: 20px;
+  background-color: #333;
+}
+.create-button-container i {
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b5505a;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.create-button-container i:hover {
+  background-color: #c45c66;
+}
+.create-button {
+  background-color: transparent;
+  color: #e4e4e4;
+  border: none;
+  font-size: 14px;
+}

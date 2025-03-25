@@ -3,74 +3,72 @@
 @import "main.scss";
 @import "skills.scss";
 @import "project.scss";
+@import "project-big.scss";
 @import "gallery.scss";
 @import "contact.scss";
 @import "footer.scss";
 @import "presentation.scss";
 @font-face {
-  font-family: 'Teko-Regular';
-  src: url('./fonts/Teko-Regular.woff2') format('woff2'),
-       url('./fonts/Teko-Regular.woff') format('woff'),
-       url('./fonts/Teko-Regular.eot') format('truetype');
-       font-weight: 400;
-       font-display: swap;
-       font-style: normal;
+  font-family: "Teko-Regular";
+  src: url("./fonts/Teko-Regular.woff2") format("woff2"),
+    url("./fonts/Teko-Regular.woff") format("woff"),
+    url("./fonts/Teko-Regular.eot") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'PilcrowRounded-Regular';
-  src: url('./fonts/PilcrowRounded-Regular.woff2') format('woff2'),
-       url('./fonts/PilcrowRounded-Regular.woff') format('woff'),
-       url('./fonts/PilcrowRounded-Regular.ttf') format('truetype');
-       font-weight: 400;
-       font-display: swap;
-       font-style: normal;
+  font-family: "PilcrowRounded-Regular";
+  src: url("./fonts/PilcrowRounded-Regular.woff2") format("woff2"),
+    url("./fonts/PilcrowRounded-Regular.woff") format("woff"),
+    url("./fonts/PilcrowRounded-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
 
-:root{
+:root {
   // --font-color: #C2C1C2;
   --font-color: #fff;
-  --bg-color: #111D4A;
-  --bg-2nd-color:#6622CC;
-  --action-color:#20FC8F;
-  --white:#fff;
-  --black:#1E1E24;
+  --bg-color: #111d4a;
+  --bg-2nd-color: #6622cc;
+  --action-color: #20fc8f;
+  --white: #fff;
+  --black: #1e1e24;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 * {
   box-sizing: border-box;
-
-
 }
 img {
   max-width: 100%;
 }
-h1{
-  font-family: 'Teko-Regular';
+h1 {
+  font-family: "Teko-Regular";
   font-size: 3rem;
 }
-h2{
-  font-family: 'Teko-Regular';
+h2 {
+  font-family: "Teko-Regular";
   font-size: 5rem;
   margin: 2rem;
   text-align: center;
 }
-h3{
-  font-family: 'Teko-Regular';
+h3 {
+  font-family: "Teko-Regular";
   font-size: 2rem;
 }
-h4{
-  font-family: 'Teko-Regular';
+h4 {
+  font-family: "Teko-Regular";
 }
-p, span{
-  font-family: 'PilcrowRounded-Regular';
+p,
+span {
+  font-family: "PilcrowRounded-Regular";
   font-size: 1.5rem;
   text-align: center;
 }
-li{
-  font-family: 'PilcrowRounded-Regular';
+li {
+  font-family: "PilcrowRounded-Regular";
 }
 // HOVER EFFECT
-
-
