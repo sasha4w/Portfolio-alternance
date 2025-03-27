@@ -85,6 +85,46 @@ const translations = {
     fr: "Voir le code",
     kr: "쇼 코드",
   },
+  S5: {
+    en: "5th Semester's project",
+    fr: "Projet du 5e semestre",
+    kr: "5학기 프로젝트",
+  },
+  S5Description: {
+    en: "Our goal was to design a mobile app inspired by the video game named Reigns, with cooperative side. The users can add cards in same deck which will be playable on the app. Thus we chose to make 3 platforms.",
+    fr: "Notre objectif était de concevoir une application mobile inspirée du jeu vidéo Reigns, avec une dimension participative. Les utilisateurs peuvent ainsi ajouter des cartes à un deck commun, qui sera intégré au jeu. Pour cela, notre groupe a développé trois plateformes.",
+    kr: "우리의 목표는 협력적인 측면을 가진 비디오 게임인 Reigns에서 영감을 받은 모바일 앱을 설계하는 것이었습니다. 사용자는 앱에서 플레이할 수 있는 카드를 동일한 덱에 추가할 수 있습니다 ",
+  },
+  S5Code: {
+    en: "Code :",
+    fr: "Code :",
+    kr: "코드 :",
+  },
+  S5CodeApi: {
+    en: "API Php MVC",
+    fr: "API Php MVC",
+    kr: "API Php MVC",
+  },
+  S5CodeWebapp: {
+    en: "Easycrea : web application React",
+    fr: "Easycrea : web application React",
+    kr: "Easycrea : 애플리케이션 React",
+  },
+  S5CodeMobile: {
+    en: "Deckouverte : mobile app React Native",
+    fr: "Deckouverte : application mobile React Native",
+    kr: "Deckouverte : 모바일 앱 React Native",
+  },
+  S6: {
+    en: "6th Semester's project",
+    fr: "Projet du 6e semestre",
+    kr: "6학기 프로젝트",
+  },
+  S6Description: {
+    en: "The goal was to create a 3D interactive animation where users travel from Earth to Mars. That's why we had the idea to make a small, fun video game with ReactJS.",
+    fr: "Le but était de créer une animation 3D interactive avec ThreeJs dans laquel l'utilisateur voyage de la Terre à Mars nous avons décidé de réaliser un petit jeu vidéo humoristique à l'aide de ReactJs.",
+    kr: "우리의 목표는 사용자가 지구에서 화성까지 여행할 수 있는 3D 인터랙티브 애니메이션을 만드는 것이었습니다. 그래서 ReactJS로 작고 재미있는 비디오 게임을 만들자는 아이디어를 떠올렸습니다",
+  },
   artworks: {
     en: "Artworks",
     fr: "Réalisations graphiques",
