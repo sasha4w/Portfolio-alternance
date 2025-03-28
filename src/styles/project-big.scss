@@ -96,6 +96,17 @@
   color: #333;
   box-shadow: 0 2px 4px rgb(0 0 0 / 73%);
   overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.square-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  cursor: pointer; /* Change cursor to indicate clickability */
+}
+
+.square-card:active {
+  transform: scale(0.95); /* Slight shrink effect when clicked */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Reduced shadow */
 }
 .square-card img {
   width: 100%;
@@ -106,13 +117,6 @@
 .square-card.top {
   background-color: #ffc6cc;
   color: #b5505a;
-}
-
-.square-card.bottom {
-  background-color: #616161;
-}
-.square-card.bottom i {
-  font-size: 43px;
 }
 
 /* Circle Button */
